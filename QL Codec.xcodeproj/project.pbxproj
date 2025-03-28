@@ -1,0 +1,729 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D3668C12D94CDD300634B6F /* QuickLookThumbnailing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D3668C02D94CDD300634B6F /* QuickLookThumbnailing.framework */; };
+		7D3668C22D94CDD300634B6F /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D8649CA2D940F9B00520E7A /* Quartz.framework */; };
+		7D3668CA2D94CDD300634B6F /* QL Codec Icons.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 7D3668BF2D94CDD300634B6F /* QL Codec Icons.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7D3668D02D94D24900634B6F /* VLCKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D8649C22D940F6400520E7A /* VLCKit.framework */; };
+		7D3668D12D94D24900634B6F /* VLCKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7D8649C22D940F6400520E7A /* VLCKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7D8649CB2D940F9B00520E7A /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D8649CA2D940F9B00520E7A /* Quartz.framework */; };
+		7D8649D82D940F9B00520E7A /* QL Codec.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 7D8649C82D940F9B00520E7A /* QL Codec.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7D8649DF2D9410D900520E7A /* VLCKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D8649C22D940F6400520E7A /* VLCKit.framework */; };
+		7D8649E02D9410D900520E7A /* VLCKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7D8649C22D940F6400520E7A /* VLCKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7D3668C82D94CDD300634B6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D8649A82D940F3900520E7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D3668BE2D94CDD300634B6F;
+			remoteInfo = QLnairepIcons;
+		};
+		7D8649D62D940F9B00520E7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D8649A82D940F3900520E7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D8649C72D940F9B00520E7A;
+			remoteInfo = "QL nairep";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7D3668D22D94D24900634B6F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				7D3668D12D94D24900634B6F /* VLCKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D8649DD2D940F9B00520E7A /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				7D8649D82D940F9B00520E7A /* QL Codec.appex in Embed Foundation Extensions */,
+				7D3668CA2D94CDD300634B6F /* QL Codec Icons.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D8649E12D9410D900520E7A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				7D8649E02D9410D900520E7A /* VLCKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7D3668BF2D94CDD300634B6F /* QL Codec Icons.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "QL Codec Icons.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D3668C02D94CDD300634B6F /* QuickLookThumbnailing.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLookThumbnailing.framework; path = System/Library/Frameworks/QuickLookThumbnailing.framework; sourceTree = SDKROOT; };
+		7D8649B02D940F3900520E7A /* Quicklook Codec.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quicklook Codec.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D8649C22D940F6400520E7A /* VLCKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = VLCKit.framework; sourceTree = "<group>"; };
+		7D8649C82D940F9B00520E7A /* QL Codec.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "QL Codec.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D8649CA2D940F9B00520E7A /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		7D3668CB2D94CDD300634B6F /* Exceptions for "QLnairepIcons" folder in "QL Codec Icons" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 7D3668BE2D94CDD300634B6F /* QL Codec Icons */;
+		};
+		7D5295AF2D96F93600DE73FF /* Exceptions for "QLnairep" folder in "Quicklook Codec" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				ContentViewMKV.swift,
+			);
+			target = 7D8649AF2D940F3900520E7A /* Quicklook Codec */;
+		};
+		7D8649D92D940F9B00520E7A /* Exceptions for "QL nairep" folder in "QL Codec" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				1PreviewViewController.swift,
+				Info.plist,
+			);
+			target = 7D8649C72D940F9B00520E7A /* QL Codec */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		7D3668C32D94CDD300634B6F /* QLnairepIcons */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				7D3668CB2D94CDD300634B6F /* Exceptions for "QLnairepIcons" folder in "QL Codec Icons" target */,
+			);
+			path = QLnairepIcons;
+			sourceTree = "<group>";
+		};
+		7D8649B22D940F3900520E7A /* QLnairep */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				7D5295AF2D96F93600DE73FF /* Exceptions for "QLnairep" folder in "Quicklook Codec" target */,
+			);
+			path = QLnairep;
+			sourceTree = "<group>";
+		};
+		7D8649CC2D940F9B00520E7A /* QL nairep */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				7D8649D92D940F9B00520E7A /* Exceptions for "QL nairep" folder in "QL Codec" target */,
+			);
+			path = "QL nairep";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D3668BC2D94CDD300634B6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D3668D02D94D24900634B6F /* VLCKit.framework in Frameworks */,
+				7D3668C12D94CDD300634B6F /* QuickLookThumbnailing.framework in Frameworks */,
+				7D3668C22D94CDD300634B6F /* Quartz.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D8649AD2D940F3900520E7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D8649C52D940F9B00520E7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D8649CB2D940F9B00520E7A /* Quartz.framework in Frameworks */,
+				7D8649DF2D9410D900520E7A /* VLCKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D8649A72D940F3900520E7A = {
+			isa = PBXGroup;
+			children = (
+				7D8649B22D940F3900520E7A /* QLnairep */,
+				7D8649CC2D940F9B00520E7A /* QL nairep */,
+				7D3668C32D94CDD300634B6F /* QLnairepIcons */,
+				7D8649C92D940F9B00520E7A /* Frameworks */,
+				7D8649B12D940F3900520E7A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7D8649B12D940F3900520E7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D8649B02D940F3900520E7A /* Quicklook Codec.app */,
+				7D8649C82D940F9B00520E7A /* QL Codec.appex */,
+				7D3668BF2D94CDD300634B6F /* QL Codec Icons.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D8649C92D940F9B00520E7A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7D8649C22D940F6400520E7A /* VLCKit.framework */,
+				7D8649CA2D940F9B00520E7A /* Quartz.framework */,
+				7D3668C02D94CDD300634B6F /* QuickLookThumbnailing.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7D3668BE2D94CDD300634B6F /* QL Codec Icons */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D3668CC2D94CDD300634B6F /* Build configuration list for PBXNativeTarget "QL Codec Icons" */;
+			buildPhases = (
+				7D3668BB2D94CDD300634B6F /* Sources */,
+				7D3668BC2D94CDD300634B6F /* Frameworks */,
+				7D3668BD2D94CDD300634B6F /* Resources */,
+				7D3668D22D94D24900634B6F /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				7D3668C32D94CDD300634B6F /* QLnairepIcons */,
+			);
+			name = "QL Codec Icons";
+			packageProductDependencies = (
+			);
+			productName = QLnairepIcons;
+			productReference = 7D3668BF2D94CDD300634B6F /* QL Codec Icons.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		7D8649AF2D940F3900520E7A /* Quicklook Codec */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D8649BF2D940F3A00520E7A /* Build configuration list for PBXNativeTarget "Quicklook Codec" */;
+			buildPhases = (
+				7D8649AC2D940F3900520E7A /* Sources */,
+				7D8649AD2D940F3900520E7A /* Frameworks */,
+				7D8649AE2D940F3900520E7A /* Resources */,
+				7D8649DD2D940F9B00520E7A /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D8649D72D940F9B00520E7A /* PBXTargetDependency */,
+				7D3668C92D94CDD300634B6F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				7D8649B22D940F3900520E7A /* QLnairep */,
+			);
+			name = "Quicklook Codec";
+			packageProductDependencies = (
+			);
+			productName = QLnairep;
+			productReference = 7D8649B02D940F3900520E7A /* Quicklook Codec.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7D8649C72D940F9B00520E7A /* QL Codec */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D8649DA2D940F9B00520E7A /* Build configuration list for PBXNativeTarget "QL Codec" */;
+			buildPhases = (
+				7D8649C42D940F9B00520E7A /* Sources */,
+				7D8649C52D940F9B00520E7A /* Frameworks */,
+				7D8649C62D940F9B00520E7A /* Resources */,
+				7D8649E12D9410D900520E7A /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				7D8649CC2D940F9B00520E7A /* QL nairep */,
+			);
+			name = "QL Codec";
+			packageProductDependencies = (
+			);
+			productName = "QL nairep";
+			productReference = 7D8649C82D940F9B00520E7A /* QL Codec.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D8649A82D940F3900520E7A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					7D3668BE2D94CDD300634B6F = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					7D8649AF2D940F3900520E7A = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					7D8649C72D940F9B00520E7A = {
+						CreatedOnToolsVersion = 16.2;
+					};
+				};
+			};
+			buildConfigurationList = 7D8649AB2D940F3900520E7A /* Build configuration list for PBXProject "QL Codec" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7D8649A72D940F3900520E7A;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 7D8649B12D940F3900520E7A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D8649AF2D940F3900520E7A /* Quicklook Codec */,
+				7D8649C72D940F9B00520E7A /* QL Codec */,
+				7D3668BE2D94CDD300634B6F /* QL Codec Icons */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7D3668BD2D94CDD300634B6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D8649AE2D940F3900520E7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D8649C62D940F9B00520E7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D3668BB2D94CDD300634B6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D8649AC2D940F3900520E7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D8649C42D940F9B00520E7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7D3668C92D94CDD300634B6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D3668BE2D94CDD300634B6F /* QL Codec Icons */;
+			targetProxy = 7D3668C82D94CDD300634B6F /* PBXContainerItemProxy */;
+		};
+		7D8649D72D940F9B00520E7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D8649C72D940F9B00520E7A /* QL Codec */;
+			targetProxy = 7D8649D62D940F9B00520E7A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7D3668CD2D94CDD300634B6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = QLnairepIcons/QLnairepIcons.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 46WUYUUA8V;
+				ENABLE_HARDENED_RUNTIME = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = QLnairepIcons/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "QLCodec-icons";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Quet Almahdi Morris";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.oil3.QLcodec.QLcdi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7D3668CE2D94CDD300634B6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = QLnairepIcons/QLnairepIcons.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 46WUYUUA8V;
+				ENABLE_HARDENED_RUNTIME = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = QLnairepIcons/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "QLCodec-icons";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Quet Almahdi Morris";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.oil3.QLcodec.QLcdi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		7D8649BD2D940F3A00520E7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7D8649BE2D940F3A00520E7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		7D8649C02D940F3A00520E7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = QLnairep/QLnairep.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"QLnairep/Preview Content\"";
+				DEVELOPMENT_TEAM = 46WUYUUA8V;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/QLnairep",
+					"$(PROJECT_DIR)",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Quicklook Codec";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.video";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Quet Almahdi Morris";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.oil3.QLcodec;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7D8649C12D940F3A00520E7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = QLnairep/QLnairep.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"QLnairep/Preview Content\"";
+				DEVELOPMENT_TEAM = 46WUYUUA8V;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/QLnairep",
+					"$(PROJECT_DIR)",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Quicklook Codec";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.video";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Quet Almahdi Morris";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.oil3.QLcodec;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		7D8649DB2D940F9B00520E7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "QL nairep/QL_nairep.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 46WUYUUA8V;
+				ENABLE_HARDENED_RUNTIME = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "QL nairep/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = QLCodec;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Quet Almahdi Morris";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.oil3.QLcodec.QLcd;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7D8649DC2D940F9B00520E7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "QL nairep/QL_nairep.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 46WUYUUA8V;
+				ENABLE_HARDENED_RUNTIME = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "QL nairep/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = QLCodec;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Quet Almahdi Morris";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.oil3.QLcodec.QLcd;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7D3668CC2D94CDD300634B6F /* Build configuration list for PBXNativeTarget "QL Codec Icons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D3668CD2D94CDD300634B6F /* Debug */,
+				7D3668CE2D94CDD300634B6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D8649AB2D940F3900520E7A /* Build configuration list for PBXProject "QL Codec" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D8649BD2D940F3A00520E7A /* Debug */,
+				7D8649BE2D940F3A00520E7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D8649BF2D940F3A00520E7A /* Build configuration list for PBXNativeTarget "Quicklook Codec" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D8649C02D940F3A00520E7A /* Debug */,
+				7D8649C12D940F3A00520E7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D8649DA2D940F9B00520E7A /* Build configuration list for PBXNativeTarget "QL Codec" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D8649DB2D940F9B00520E7A /* Debug */,
+				7D8649DC2D940F9B00520E7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7D8649A82D940F3900520E7A /* Project object */;
+}
