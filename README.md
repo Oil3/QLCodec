@@ -19,7 +19,7 @@ It requires nothing external, doesn't need internet, is hardened to the maximum 
 
 Playback is instant on local network as well.  
 
-Persistent settings are accessible _via_ the right-click context menu within the Quick Look preview.   
+Persistent settings are accessible _via_ the right-click context menu within the Quick Look preview: might want to `right-click` then toggle `autoplay` to your liking. 
 
    
 ## Install  
