@@ -12,7 +12,7 @@ QLCodec makes “Quick Look“ play everything.</p>
 For both macOS Silicon and Intel architectures.   
 
 
-* Update Day+1 : fixed a filetype issue that prevented playback for users of “iina“. [Re-download ](https://github.com/Oil3/QLCodec/releases/download/qlc-1.0-universalBinary/QLC.1.0.fixed.UniversalBinary.zip)if some file formats weren't recognized.  
+* Update Day+1 : fixed a filetype issue that prevented playback for users of “iina“. [Re-download ](https://github.com/Oil3/QLCodec/releases/download/QLC-1.1-universalBinary/QLCodec.1.1-.UniversalBinary.zip)if some file formats weren't recognized.  
 
 
 QLCodec brings playback support for the formats that are lacking with Quicktime, bringing 36 codecs inside 56 formats now at the reach of a spacebar button.  
@@ -35,7 +35,7 @@ Persistent settings are accessible _via_ the right-click context menu within the
 
 
 ##
-Download version 1.0 from [Releases ](https://github.com/Oil3/QLCodec/releases/tag/qlc-1.0-universalBinary) or [direct-download](https://github.com/Oil3/QLCodec/releases/download/qlc-1.0-universalBinary/QLC.1.0.fixed.UniversalBinary.zip).  
+Download version 1.1 from [Releases ](https://github.com/Oil3/QLCodec/releases/tag/QLC-1.1-universalBinary) or [direct-download](https://github.com/Oil3/QLCodec/releases/download/QLC-1.1-universalBinary/QLCodec.1.1-.UniversalBinary.zip).  
 Full supported codecs and formats [markdown list](https://github.com/Oil3/QLCodec/blob/oil3/QLCodecSupportedFormats.md).
 
 ##
