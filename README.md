@@ -48,8 +48,9 @@ Full supported codecs and formats [markdown list](https://github.com/Oil3/QLCode
 [FFmpeg](http://ffmpeg.org) for their libraries licenced in [LGPLv2.1](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html).     
 [VideoLan](https://www.videolan.org/) for their libraries licenced in  [LGPLv2.1](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html).  
 [Perian](https://perian.org/) for their Quicktime plug-in back-in-the-days.  
-
-  
+Mac and macOS are trademarks of [Apple Inc.](http://www.apple.com/), registered in the U.S. and other countries and regions.  
 
   ##  
 _A mac is a mac and it needs to stay comfortable, but it's still your mac._  
+
+
