@@ -136,3 +136,9 @@ The Providers, having acted without coercion and in the spirit of technological 
 
 ---
 8 of November of 2025 - QLCodec - Panama City
+
+<br/><br/>  
+<br/><br/>  
+
+
+ <sub>Mac and macOS are trademarks of [Apple Inc.](http://www.apple.com/), registered in the U.S. and other countries and regions.</sub> 
