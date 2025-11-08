@@ -1,5 +1,8 @@
   <p align="center">
-  <img src="https://github.com/user-attachments/assets/1e83fd99-3571-47b0-9248-ef0e57c433c7"></p>
+  <img width="128" height="128" alt="image" src="https://github.com/user-attachments/assets/c5b55188-37f5-4e89-992a-53ac70700a7e" />
+    <img width="128" height="128" alt="image" src="https://github.com/user-attachments/assets/e11fe6c9-4dde-4c78-95b8-f2fe6c04d10b" />
+<img width="128" height="128" alt="image" src="https://github.com/user-attachments/assets/98c3e290-013a-4c41-ad51-24507b440bcd" />
+
   <h1 align="center">QLCodec</h1>  
     <p align="center  ">
 QLCodec makes “Quick Look“ play everything.</p>
@@ -9,10 +12,10 @@ QLCodec makes “Quick Look“ play everything.</p>
 
 
    ## 
-For both macOS Silicon and Intel architectures.   
+For every Apple computers: both Intel and M-series, running versions macOS 26 'Tahoe' down to macOS 11 'Big Sur', included.  
 
 
-* Update Day+1 : fixed a filetype issue that prevented playback for users of “iina“. [Re-download ](https://github.com/Oil3/QLCodec/releases/download/QLC-1.1-universalBinary/QLCodec.1.1-.UniversalBinary.zip)if some file formats weren't recognized.  
+* Update in progress.  
 
 
 QLCodec brings playback support for the formats that are lacking with Quicktime, bringing 36 codecs inside 56 formats now at the reach of a spacebar button.  
