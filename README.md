@@ -14,7 +14,7 @@ QLCodec makes “Quick Look“ play everything.</p>
 
 
    ## 
-For every Apple computers: both Intel and M-series, running versions macOS 26 'Tahoe' down to macOS 11 'Big Sur', included.  
+For every Apple computers: both Intel and M-series, running versions macOS 26 'Tahoe' down to macOS 11 'Big Sur'.  
 
 
 * Update in progress.  
