@@ -1,7 +1,9 @@
+<sup><sub>A Quick Look Previewer extension for the macOS operating system.</sub></sup>
+
   <p align="center">
-  <img width="128" height="128" alt="image" src="https://github.com/user-attachments/assets/c5b55188-37f5-4e89-992a-53ac70700a7e" />
+    <img width="128" height="128" alt="image" src="https://github.com/user-attachments/assets/98c3e290-013a-4c41-ad51-24507b440bcd" />
     <img width="128" height="128" alt="image" src="https://github.com/user-attachments/assets/e11fe6c9-4dde-4c78-95b8-f2fe6c04d10b" />
-<img width="128" height="128" alt="image" src="https://github.com/user-attachments/assets/98c3e290-013a-4c41-ad51-24507b440bcd" />
+    <img width="128" height="128" alt="image" src="https://github.com/user-attachments/assets/c5b55188-37f5-4e89-992a-53ac70700a7e" />
 
   <h1 align="center">QLCodec</h1>  
     <p align="center  ">
