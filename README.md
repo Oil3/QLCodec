@@ -20,7 +20,8 @@ For every Apple computers: both Intel and M-series, running versions macOS 26 'T
 * Update in progress.  
 
 
-QLCodec brings playback support for the formats that are lacking with Quicktime, bringing 36 codecs inside 56 formats now at the reach of a spacebar button.  
+QLCodec bringsd playback support for most (if not all) non-native media formats, such as the well known `webm`, `mkv`, or `wmv`, to more niche formats such as `nuv`, `ivf` , or `nraw`, directly in Quick Look.   
+
 It requires nothing external, doesn't need internet, is hardened to the maximum and sandboxed, and has no extra entitlements.   
 
 Playback is instant on local network as well.  
