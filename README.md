@@ -17,10 +17,10 @@ QLCodec makes “Quick Look“ play everything.</p>
 For every Apple computers: both Intel and M-series, running versions macOS 26 'Tahoe' down to macOS 11 'Big Sur'.  
 
 
-* Update in progress.  
+* Update in progress.8nov25  
 
 
-QLCodec bringsd playback support for most (if not all) non-native media formats, such as the well known `webm`, `mkv`, or `wmv`, to more niche formats such as `nuv`, `ivf` , or `nraw`, directly in Quick Look.   
+QLCodec brings playback support for most (if not all) non-native media formats, such as the well known `webm`, `mkv`, or `wmv`, to more niche formats such as `nuv`, `ivf` , or `nraw`, directly in Quick Look.   
 
 It requires nothing external, doesn't need internet, is hardened to the maximum and sandboxed, and has no extra entitlements.   
 
