@@ -2,70 +2,128 @@
 
 
 
+# QLCodec, supported formats and codecs:
 
-## Video   
+## Non-native   
 
 | Extension | Format | Typical Codec(s) | Description |
 |-----------|--------|------------------|-------------|
-| `.amv` | Anime Music Video | Modified MJPEG | Format for portable media players |
+| `.amv` | Actions Media Video | Modified MJPEG | Format for portable media players |
+| `.anim` | Amiga Animation | IFF ANIM | Animation format from Commodore Amiga |
 | `.asf` | Advanced Systems Format | Various | Microsoft container format |
-| `.avi` | Audio Video Interleave | Various | Microsoft container format |
 | `.avs` | AviSynth Script | Script | Script-based video processing format |
+| `.axv` | Annodex Video | Theora, Various | Ogg-based video format for web annotations |
+| `.bdav` | Blu-ray BDAV | Various, VC-1, MPEG-2 | Blu-ray disc audio-video format |
+| `.bfi` | Brute Force & Ignorance | BFI | Video format used in some games |
 | `.bik` | Bink Video | Bink | Video format by RAD Game Tools for games |
 | `.bk2` | Bink 2 | Bink 2 | Newer version of Bink video format |
+| `.braw` | Blackmagic RAW | BRAW | RAW video format from Blackmagic cameras |
+| `.cel` | KISS/GS Cel | CEL | Animation cel format |
+| `.cin` | Cineon | Cineon | Digital film scanning format |
+| `.cine` | Vision Research Cine | Uncompressed/Various | High-speed camera format |
+| `.cpk` | CRI Sofdec | CRI | Video format used in video games |
+| `.crm` | CRM | Various | Video format used in some applications |
+| `.dat` | Video CD | MPEG-1 | VCD/SVCD video data file |
+| `.dav` | CCTV Digital Video | Various | Surveillance camera video format |
+| `.dcr` | Director Shockwave | Shockwave | Macromedia Director movie format |
+| `.dir` | Director Movie | Various | Macromedia Director project format |
 | `.divx` | DivX | DivX | Proprietary video codec and container format |
-| `.dv` | Digital Video | DV | Format used by digital camcorders |
-| `.flv` | Flash Video | VP6, H.264 | Adobe Flash video container format |
+| `.dl` | DL | Various | Animation format |
+| `.dpx` | Digital Picture Exchange | Uncompressed | Digital film frame format |
+| `.drc` | Dirac | Dirac | Open video compression format by BBC |
+| `.dvdmedia` | DVD Media | MPEG-2 | macOS DVD disc image format |
+| `.dvr-ms` | Microsoft Digital Video Recording | MPEG-2 | Windows Media Center recording format |
+| `.dxa` | Feeble Files | DXA | Video format used in adventure games |
+| `.dxr` | Director Protected | Shockwave | Protected Macromedia Director movie |
+| `.evo` | HD DVD | Various, VC-1 | HD DVD video format |
+| `.exr` | OpenEXR | Uncompressed/Various | High dynamic range image sequence format |
+| `.eyv` | EyeTV | MPEG-2, Various | EyeTV recording format |
+| `.f4p` | Flash MP4 Protected | Various | DRM-protected Flash video |
+| `.f4v` | Flash MP4 Video | Various | Flash video in MP4 container |
+| `.film` | FilmLight | Various | Film scanning/processing format |
+| `.flc` | FLIC Animation | FLIC | Enhanced Autodesk Animator format |
+| `.fli` | FLIC Animation | FLIC | Autodesk Animator format |
+| `.flv` | Flash Video | VP6, Various | Adobe Flash video container format |
+| `.gl` | GL Animation | GL | SGI graphics library animation |
 | `.gxf` | General eXchange Format | Various | Broadcast video container format |
-| `.ivf` | IVF | VP8, AV1 | Simple container format for VP8/AV1 |
-| `.m2ts` | Blu-ray BDAV | H.264, VC-1, MPEG-2 | Blu-ray disc container format |
-| `.mkv` | Matroska Video | Various (H.264, HEVC, VP9) | Open-source container format supporting multiple codecs |
-| `.mts` | AVCHD | H.264 | HD video format used in digital cameras |
+| `.hiff` | Hierarchical IFF | Various | Amiga/IFF animation format |
+| `.ifo` | DVD Information | N/A | DVD navigation and structure data |
+| `.imf` | Interoperable Master Format | Various | Digital cinema master format |
+| `.ivf` | IVF | VP8, VP9, AV1 | Simple container format for VP8/VP9/AV1 |
+| `.jss` | JSS | Various | Game video format |
+| `.k3g` | 3GPP2 | H.263, Various | Mobile video format variant |
+| `.m2ts` | Blu-ray BDAV | Various, VC-1, MPEG-2 | Blu-ray disc container format |
+| `.mj2` | Motion JPEG 2000 | JPEG 2000 | Video using JPEG 2000 compression |
+| `.mjp2` | Motion JPEG 2000 | JPEG 2000 | Alternative extension for MJ2 |
+| `.mjpeg` | Motion JPEG | MJPEG | Video using JPEG frame compression |
+| `.mjpg` | Motion JPEG | MJPEG | Alternative extension for MJPEG |
+| `.mkv` | Matroska Video | Various (Various, HEVC, VP9, AV1) | Open-source container format supporting multiple codecs |
+| `.mmm` | M4 Movie | Various | Video format used in some applications |
+| `.mng` | Multiple-image Network Graphics | MNG | Animated PNG format |
+| `.mod` | MOD Camcorder | MPEG-2 | Tapeless camcorder video format |
+| `.mts` | AVCHD | Various | HD video format used in digital cameras |
 | `.mtv` | MTV | MTV MPEG | Format used by Chinese MP3 players |
+| `.mve` | Interplay MVE | MVE | Video format used in Interplay games |
 | `.mvi` | Motion Video Interpolator | Various | Video format used in some games |
 | `.mxf` | Material eXchange Format | Various | Professional video container format |
+| `.nraw` | NRAW | RAW | Nikon Camera RAW video format |
 | `.nsv` | Nullsoft Streaming Video | VP3, MP3 | Video format by Winamp creators |
 | `.nut` | NUT | Various | Open container format |
 | `.nuv` | NuppelVideo | RTjpeg | Format used by MythTV |
 | `.ogm` | Ogg Media | Various | Container format based on Ogg |
+| `.ogv` | Ogg Video | Theora | Ogg container for Theora video |
+| `.pss` | PlayStation 2 Stream | MPEG-2 | Video format used in PS2 games |
+| `.pva` | PVA | MPEG-2 | Video format for DVB cards |
+| `.pvr` | PVR | Various | Video format used in some games |
+| `.pxv` | Pixar | Various | Pixar video format |
+| `.r3d` | RED RAW | RED | RAW video format from RED cameras |
+| `.ratdvd` | RatDVD | Various | DVD compression format |
+| `.rec` | Topfield Recording | MPEG-2 | Digital TV recorder format |
+| `.rl2` | RL2 | RL2 | Video format used in games |
 | `.rm` | RealMedia | RealVideo | Streaming video format by RealNetworks |
 | `.rmvb` | RealMedia Variable Bitrate | RealVideo | Enhanced RealMedia format with better compression |
 | `.roq` | RoQ | RoQ | Id Tech video format used in games |
+| `.rv` | RealVideo | RealVideo | RealNetworks video codec |
+| `.seq` | ATARI ST Sequence | SEQ | Atari animation format |
+| `.sfd` | SFD | Various | Game video format |
 | `.smk` | Smacker | Smacker | Video codec by RAD Game Tools |
+| `.spl` | FutureSplash | FutureSplash | Early Flash animation format |
+| `.str` | PlayStation Stream | STR | Video format used in PlayStation1 games |
+| `.svi` | Samsung Video | Various | Video format for Samsung devices |
 | `.swf` | Shockwave Flash | Various | Adobe Flash container format |
-| `.tp` | Transport Stream | MPEG-2, H.264 | Digital broadcast container format |
-| `.ts` | MPEG Transport Stream | Various | Container format for digital broadcasting |
+| `.thp` | THP | THP | Video format used in Nintendo games |
+| `.tod` | JVC Everio | MPEG-2 | JVC camcorder format |
+| `.tp` | Transport Stream | MPEG-2, Various | Digital broadcast container format |
+| `.trp` | Transport Stream | MPEG-2, Various | HD transport stream variant |
+| `.txd` | TXD | Various | Game texture/video format |
+| `.usm` | CRI USM | CRI | Video format used in video games |
+| `.uvx` | DECE Video | Various | UltraViolet video format |
+| `.vc1` | VC-1 | VC-1 | Microsoft's video codec format |
+| `.vid` | VID | Various | Generic video format extension |
+| `.viv` | Vivo | Vivo | Early streaming video format |
+| `.vivo` | Vivo | Vivo | Alternative extension for Vivo |
 | `.vob` | DVD Video Object | MPEG-2 | DVD video container format |
+| `.vp6` | On2 VP6 | VP6 | On2 Technologies video codec |
+| `.vp7` | On2 VP7 | VP7 | On2 Technologies video codec |
+| `.vro` | DVD VR | MPEG-2 | DVD-VR recording format |
+| `.wcp` | Wing Commander | WCP | Video format used in Wing Commander games |
 | `.webm` | WebM | VP8, VP9, AV1 | Open web video format based on Matroska |
+| `.wm` | Windows Media | Various | Windows Media container |
+| `.wmp` | Windows Media Player | Various | Windows Media Player format |
 | `.wmv` | Windows Media Video | WMV, VC-1 | Microsoft's video format |
 | `.wtv` | Windows Recorded TV Show | Various | Windows Media Center recording format |
-| `.xvid` | Xvid | MPEG-4 ASP | Open-source implementation of MPEG-4 ASP |
+| `.wve` | WVE | Various | Video format used in some applications |
+| `.xesc` | XESC | Various | Video format |
+| `.xvid` | Xvid | Various ASP | Open-source implementation of Various ASP |
 | `.y4m` | YUV4MPEG2 | Uncompressed | Raw video format with simple header |
 | `.yuv` | YUV | Uncompressed | Raw video format using YUV color space |
 
-## Audio  
+## Other  
 
 | Extension | Format | Typical Codec(s) | Description |
 |-----------|--------|------------------|-------------|
-| `.ac3` | Audio Codec 3 | Dolby Digital | Compressed audio format often used for DVD and Blu-ray |
-| `.amr` | Adaptive Multi-Rate | AMR | Speech compression format for mobile phones |
-| `.ape` | Monkey's Audio | APE | Lossless audio compression format |
-| `.dff` | Direct Stream Digital | DSD | SACD high-resolution audio format (DSDIFF) |
-| `.dsf` | Direct Stream Digital | DSD | High-resolution audio format for SACD |
-| `.dts` | Digital Theater Systems | DTS | High-quality audio format used in commercial films and DVDs |
-| `.it` | Impulse Tracker Module | Impulse Tracker | Advanced tracker module format |
-| `.mod` | Module | Various | Tracker module format for music composition |
-| `.mpc` | Musepack | MPC SV7/SV8 | Lossy audio compression format optimized for perceptual quality |
-| `.nsf` | Nintendo Sound Format | NSF | NES/Famicom music format |
-| `.ogg` | Ogg | Vorbis, FLAC, Opus | Container format for primarily Vorbis audio |
-| `.opus` | Opus | Opus | Free, open audio codec for music and speech |
-| `.ra` | RealAudio | RealAudio | Streaming audio format by RealNetworks |
-| `.s3m` | ScreamTracker 3 Module | ScreamTracker 3 | Tracker module format |
-| `.sid` | Commodore 64 Sound Interface Device | SID | C64 music format |
-| `.spc` | SPC700 Sound Format | SPC700 | SNES music format |
-| `.tta` | True Audio | TTA | Lossless audio compression |
-| `.vgm` | Video Game Music | VGM | Video game console music format |
-| `.wma` | Windows Media Audio | WMA | Proprietary Microsoft audio format with various compression levels |
-| `.wmva` | Windows Media Video Audio | WMA Pro | Audio format often paired with WMV video |
-| `.wv` | WavPack | WavPack | Hybrid lossless audio compression |
-| `.xm` | Extended Module | FastTracker 2 | Advanced tracker module format |
+| `.aec` | AEC | Various | Audio format (possibly related to echo cancellation processing) |
+| `.axa` | Annodex Audio | Vorbis, Various | Ogg-based audio format for web annotations |
+| `.f4a` | Flash MP4 Audio | AAC | Adobe Flash audio in MP4 container |
+| `.f4b` | Flash MP4 Audiobook | AAC | Adobe Flash audiobook format |
+| `.xa` | PlayStation XA | XA ADPCM | PlayStation audio/video interleaved format (primarily audio) |
