@@ -1,9 +1,5 @@
 # QLCodec, supported formats and codecs:
 
-
-
-# QLCodec, supported formats and codecs:
-
 ## Non-native   
 
 | Extension | Format | Typical Codec(s) | Description |
