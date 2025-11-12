@@ -71,7 +71,7 @@ For the purposes of this Instrument, unless the context otherwise requires and d
 <p align="justify">
 <strong>3.1 Delegation of Codec Operations.</strong> The Software does <strong>not</strong> perform or claim to perform any <em>H.264 Codec Operations</em>.  
 <br><br> 
-<strong>3.2 Operating System Integration.</strong> hen such functionality is required, the Software delegates said operations to the underlying macOS operating system. For the avoidance of doubt, the substitution of Third-Party Components pursuant to Article II, Section 2.3, does not alter, modify, or otherwise affect the fundamental operational model described herein, which remains unchanged regardless of any such substitution.  
+<strong>3.2 Operating System Integration.</strong> When such functionality is required, the Software delegates said operations to the underlying macOS operating system. For the avoidance of doubt, the substitution of Third-Party Components pursuant to Article II, Section 2.3, does not alter, modify, or otherwise affect the fundamental operational model described herein, which remains unchanged regardless of any such substitution.  
 <br><br> 
 <strong>3.3 Jurisdictional Considerations.</strong> In jurisdictions where uncertainty exists regarding the applicability of certain intellectual property claims related to multimedia container formats and video compression standards, the Providers have elected to delegate all such operations to the underlying operating system.  
 <br><br> 
