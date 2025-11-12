@@ -87,7 +87,7 @@ For the purposes of this Instrument, unless the context otherwise requires and d
 <p align="justify">
 <strong>4.1 Provision Without Consideration.</strong> The Software is provided <strong>free of charge</strong>, <strong>without fee or consideration</strong>, and strictly <strong>"as is."</strong>  
 <br><br> 
-<strong>4.2 Good Faith Declarations.</strong> All statements, claims, and assurances issued by the Providers are made <strong>in Good Faith</strong> but without warranty or condition, whether express, implied, statutory, or otherwise.  
+ <strong>4.2 Good Faith Declarations.</strong> All statements, claims, and assurances issued by the Providers are made in Good Faith; however,   the Software is provided without any warranty whatsoever, whether express, implied, statutory, or otherwise, including but not limited to implied warranties of merchantability, fitness for a particular purpose, title, or non-infringement.
 <br><br> 
 <strong>4.3 Limitation of Liability.</strong> Under no circumstance shall the Providers be liable for any loss, damage, or consequence — whether direct, indirect, incidental, or consequential — arising out of or in connection with the Use or inability to Use the Software.  
 <br><br> 
