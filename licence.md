@@ -144,7 +144,7 @@ The Providers, having acted without coercion and in Good Faith, do hereby affirm
 </p>
 
 ---
-8 of November of 2025 - QLCodec - Panama City
+11 of November of 2025 - QLCodec - Panama City
 
 <br/><br/>  
 <br/><br/>  
