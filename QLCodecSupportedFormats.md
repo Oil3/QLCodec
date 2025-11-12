@@ -53,7 +53,7 @@
 | `.mjp2` | Motion JPEG 2000 | JPEG 2000 | Alternative extension for MJ2 |
 | `.mjpeg` | Motion JPEG | MJPEG | Video using JPEG frame compression |
 | `.mjpg` | Motion JPEG | MJPEG | Alternative extension for MJPEG |
-| `.mkv` | Matroska Video | Various (Various, HEVC, VP9, AV1) | Open-source container format supporting multiple codecs |
+| `.mkv` | Matroska Video | Any| Open-source container format supporting multiple codecs |
 | `.mmm` | M4 Movie | Various | Video format used in some applications |
 | `.mng` | Multiple-image Network Graphics | MNG | Animated PNG format |
 | `.mod` | MOD Camcorder | MPEG-2 | Tapeless camcorder video format |
@@ -118,7 +118,7 @@
 
 | Extension | Format | Typical Codec(s) | Description |
 |-----------|--------|------------------|-------------|
-| `.aec` | AEC | Various | Audio format (possibly related to echo cancellation processing) |
+| `.aec` | AEC | Uncompressed | Adobe After Effects Composition from Cinema 4D|
 | `.axa` | Annodex Audio | Vorbis, Various | Ogg-based audio format for web annotations |
 | `.f4a` | Flash MP4 Audio | AAC | Adobe Flash audio in MP4 container |
 | `.f4b` | Flash MP4 Audiobook | AAC | Adobe Flash audiobook format |
