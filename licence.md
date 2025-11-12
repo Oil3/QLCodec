@@ -59,7 +59,7 @@ For the purposes of this Instrument, unless the context otherwise requires and d
 <br><br>
 <strong>2.3 Mechanism of Library Substitution.</strong> The LGPL v2.1 expressly permits Users to substitute alternative implementations of the aforementioned components. Such substitution may be effectuated by replacing the compiled frameworks located within the "Contents/Frameworks" directory of the Software's application bundle, followed by the application of a valid cryptographic signature to the modified bundle in accordance with applicable code-signing requirements.  
 <br><br>
-<strong>2.4 FFmpeg Libraries.</strong> The Software further employs components from the <strong>FFmpeg Project</strong>, likewise governed by the LGPL v2.1, and hereby incorporated by reference in full.  
+<strong>2.4 FFmpeg Libraries.</strong> The Software further employs components from the <strong>FFmpeg Project</strong>, likewise governed by the LGPL v2.1, the terms and conditions of which are hereby incorporated by reference in full as applicable to said components.
 <br><br>
 <strong>2.5 Private Code Licensing.</strong> Certain additional routines are derived from the <strong>QLCodec Project</strong>, utilized under a private license agreement, the terms of which remain confidential between the contracting entities and are not subject to disclosure under this Instrument.
 </p>
