@@ -57,12 +57,15 @@ Full supported codecs and formats [markdown list](https://github.com/Oil3/QLCode
 
 </p>
 
-<p align="justify">
-[VideoLan](https://www.videolan.org/) for their libraries licenced in  [LGPLv2.1](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html).  We use, or have used, code from Videolan's VLCKit in ths project, a project which wouldn't have been possible without them. QLCodec is forever grateful for Videolan's selfless commitment of sharing knowledge with everyone.   
+<p align="justify"> 
+  
+[VideoLan](https://www.videolan.org) for their libraries licenced in [LGPLv2.1](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html).  We use, or have used, code from Videolan's VLCKit in ths project, a project which wouldn't have been possible without them. QLCodec is forever grateful for Videolan's selfless commitment of sharing knowledge with everyone.   
 </p>
 <p align="justify">
-[Perian](https://perian.org/) for their Quicktime plug-in back-in-the-days.  Perian was an open-source QuickTime component that enabled Apple Inc.'s QuickTime to play several popular video formats not supported natively by QuickTime (quote from Wikipedia). 
+  
+[Perian](https://perian.org) for their Quicktime plug-in back-in-the-days.  Perian was an open-source QuickTime component that enabled Apple Inc.'s QuickTime to play several popular video formats not supported natively by QuickTime (quote from Wikipedia). 
 </p>
+
 Mac and macOS are trademarks of [Apple Inc.](http://www.apple.com/), registered in the U.S. and other countries and regions.  
 
   ##  
